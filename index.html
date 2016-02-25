@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<div class="posts">
+  {% for post in site.posts %}
+    <article class="post">
+
+      <h1 class="title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+
+      <div class="date">
+        from {{ site.time | date: '%B %d, %Y' }}</p>
+      </div>
+
+      <div class="entry">
+        {{ post.excerpt }}
+      </div>
+
+      <div class="link">
+        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.link_text }} &rarr;</a>
+      </div>
+
+    </article>
+  {% endfor %}
+</div>

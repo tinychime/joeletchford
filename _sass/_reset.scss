@@ -20,6 +20,10 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 300;
+}
+
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -33,6 +37,7 @@ ol, ul {
 	list-style: none;
 }
 
+// Blockquotes
 blockquote, q {
 	quotes: none;
 }
@@ -47,3 +52,59 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+// Images
+img {
+	max-width: 100%;
+	vertical-align: middle;
+}
+
+// Lists
+li {
+    > ul,
+    > ol {
+         margin-bottom: 0;
+    }
+}
+
+// Code Blocks
+pre,
+code {
+    font-size: 15px;
+    border: 1px solid $grey-color-light;
+    border-radius: 3px;
+    background-color: #eef;
+}
+
+code {
+    padding: 1px 5px;
+}
+
+pre {
+    padding: 8px 12px;
+    overflow-x: scroll;
+
+    > code {
+        border: 0;
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+// Clears
+%clearfix {
+
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+.clear {
+  clear: both;
+}
+
+// Selection Color
+::selection { background: #AFEAFF; opacity: 1; color: #000; }
+::-moz-selection { background: #AFEAFF; opacity: 1; color: #000;}

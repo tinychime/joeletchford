@@ -1,17 +1,7 @@
-$(function () {
-  var $overlay = $('.overlay');
-  var $toggle = $('.toggle-menu');
-  var toggleOverlay = function (evt) {
-    if (!$(evt.target).closest($overlay).length) {
-        $overlay.addClass('hidden');
-    } else {
-        $(document).one('click', toggleOverlay);
-    }
+function toggle_visibility(id) {
+  var e = document.getElementById(id);
+  if(e.style.display == 'block')
+    e.style.display = 'none';
+    else
+    e.style.display = 'block';
   }
-  $toggle.click(function (evt) {
-    evt.preventDefault();
-    evt.stopPropagation();
-    $overlay.toggleClass('hidden');
-    $(document).one('click', toggleOverlay);
-  });
-});

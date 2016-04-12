@@ -29,3 +29,45 @@
       text-decoration: none;
     }
 }
+
+
+.about-overlay {
+    font-family: $base-font;
+    color: #000;
+    background-color: #fff;
+    margin: 10%;
+    padding: 5%;
+    line-height: 1.8em;
+    font-size: 1.4em;
+    border: 2px solid #000;
+    p {
+      margin: 0 0 25px 0;
+    }
+    a {
+      padding: 2px 0;
+      border-bottom: 2px solid #000;
+      text-decoration: none;
+      color: #000;
+    }
+    a:hover {
+      color: #000;
+      text-decoration: none;
+      border-bottom: none;
+    }
+    li {
+      list-style-type: none;
+      margin-bottom: 7px;
+    }
+}
+
+.about-wrapper {
+  display: none;
+  overflow: scroll;
+  position: fixed;
+  z-index: 10;
+  margin: 0;
+  top: 0;
+  height: 100%;
+  background-color: rgba(255, 255, 255, .8);
+  cursor: url(/images/close-cursor.png) 4 12, auto;
+}

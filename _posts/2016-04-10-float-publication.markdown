@@ -13,3 +13,4 @@ This publication was created in conjunction with the Float installation. The con
 ![MCAD's Fine Arts Booklet]({{ site.baseurl }}/images/float-5.jpg)
 
 4x6in, Metallic Pantone 876 c. Edition of 10,000.
+100 hand shaped foam cubes and PVC.

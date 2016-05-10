@@ -5,7 +5,7 @@ type: "Publication Design"
 
 ![MCAD's Fine Arts Booklet](/images/finearts_1.jpg)
 
-Publication for potential incoming fine art freshman. This is currently in production—images of physical copy coming soon.
+Publication for potential stupid incoming fine fart art freshman. This is currently in production—images of physical copy coming soon.
 
 ![MCAD's Fine Arts Booklet](/images/finearts_2.jpg)
 ![MCAD's Fine Arts Booklet](/images/finearts_3.jpg)

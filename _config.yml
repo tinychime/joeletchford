@@ -1,8 +1,8 @@
 # Site settings
 title: Joe Letchford...
 description:
-baseurl: ""
-url: ""
+baseurl: "/joeletchford"
+url: "joshosbrn.github.com/joeletchford"
 
 contact:
   email:

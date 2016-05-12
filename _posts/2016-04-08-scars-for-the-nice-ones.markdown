@@ -3,11 +3,12 @@ title: "Scars For The Nice Ones"
 type: "Publication Design"
 ---
 
-![MCAD's Fine Arts Booklet]({{ site.baseurl }}/images/mcknight-1.jpg)
+![MCAD's Fine Arts Booklet]({{ site.baseurl }}/images/scars/pg1.jpg)
 
 This zine exploration is a bi weekly publication that I have tasked for myself in order to force some form of matter out of my thoughts. I think more than I create which creates stress because I have nothing to show but a ton to say.
 
-![MCAD's Fine Arts Booklet]({{ site.baseurl }}/images/mcknight-2.jpg)
-![MCAD's Fine Arts Booklet]({{ site.baseurl }}/images/mcknight-3.jpg)
+![MCAD's Fine Arts Booklet]({{ site.baseurl }}/images/scars/pg2.jpg)
+![MCAD's Fine Arts Booklet]({{ site.baseurl }}/images/scars/pg3.jpg)
+![MCAD's Fine Arts Booklet]({{ site.baseurl }}/images/scars/pg4.jpg)
 
-11x17in, Newsprint and Toner c. Edition of 25.
+5.5 x 8in, 32 pg. 4 color CMYK, c. Edition of 30.

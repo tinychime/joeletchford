@@ -2,13 +2,13 @@
 layout: default
 ---
 <div class="overlayimage">
-    <a href="art.html">
-        <img src="images/overlayimage/art.png" alt="art"/>
+    <a href="index.html">
+        <img src="images/overlayimage/work.png" alt="art"/>
       </a>
       </div>
 <div class="projects">
     <ul>
-      {% for post in site.posts %}
+      {% for post in site.art %}
         <li class="project">
           <div class="title">{{ post.title }}</div>
           <div class="type">{{ post.type }}</div>

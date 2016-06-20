@@ -1,14 +1,7 @@
 # Site settings
 title: Joe Letchford...
 description:
-baseurl: "/joeletchford"
-url: ""
-
-contact:
-  email:
-  twitter:
-  github:
-  facebook:
+baseurl: ""
 
 # Build settings
 permalink: /:year/:month/:title

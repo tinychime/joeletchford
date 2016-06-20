@@ -3,29 +3,16 @@
 ---
 @charset "utf-8";
 
-$theme-color: #4F00FC;
-
-$base-font: sans-serif;
-$body-font: 'Roboto Mono', sans-serif;
-
 // Our variables
+$base-font: sans-serif;
 $base-line-height: 1.5;
 $base-letter-spacing: .02em;
 
 $text-color:       #383434;
 $background-color: #fff;
-$brand-color:      #ff5f2e;
 
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
-
-// Width of the content area
-$content-width:    800px;
-
+// Media query
 $on-palm:          600px;
-$on-laptop:        800px;
-
 
 @mixin media-query($device) {
     @media screen and (max-width: $device) {
@@ -33,14 +20,9 @@ $on-laptop:        800px;
     }
 }
 
-
-
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "layout",
-        "navigation",
         "header",
         "home",
-        "reset",
-        "syntax-highlighting"
+        "reset"
 ;

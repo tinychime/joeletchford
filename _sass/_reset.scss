@@ -1,3 +1,12 @@
+body {
+    font-family: $base-font;
+    line-height: $base-line-height;
+    color: $text-color;
+    background-color: $background-color;
+    -webkit-text-size-adjust: 100%;
+    letter-spacing: $base-letter-spacing;
+}
+
 // Adapted from Eric Meyer’s Reset CSS 2.0
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -67,30 +76,6 @@ li {
     }
 }
 
-// Code Blocks
-pre,
-code {
-    font-size: 15px;
-    border: 1px solid $grey-color-light;
-    border-radius: 3px;
-    background-color: #eef;
-}
-
-code {
-    padding: 1px 5px;
-}
-
-pre {
-    padding: 8px 12px;
-    overflow-x: scroll;
-
-    > code {
-        border: 0;
-        padding-right: 0;
-        padding-left: 0;
-    }
-}
-
 // Clears
 %clearfix {
 
@@ -106,5 +91,5 @@ pre {
 }
 
 // Selection Color
-::selection { background: #AFEAFF; opacity: 1; color: #000; }
-::-moz-selection { background: #AFEAFF; opacity: 1; color: #000;}
+::selection { background: red; opacity: 1; color: #fff; }
+::-moz-selection { background: red; opacity: 1; color: #fff;}

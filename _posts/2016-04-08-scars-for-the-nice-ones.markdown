@@ -1,6 +1,7 @@
 ---
 title: "Scars For The Nice Ones"
 type: "Publication Design"
+categories: "art"
 ---
 
 ![MCAD's Fine Arts Booklet]({{ site.baseurl }}/images/scars/pg1.jpg)

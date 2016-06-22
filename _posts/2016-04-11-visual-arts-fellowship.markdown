@@ -1,6 +1,7 @@
 ---
 title: "Mcknight Visual Arts Fellowship"
 type: "Postcard Design"
+tags: "home"
 ---
 
 ![MCAD's Fine Arts Booklet]({{ site.baseurl }}/images/mcknight/mcknight013.jpg)

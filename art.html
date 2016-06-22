@@ -4,18 +4,20 @@ layout: default
 <div class="overlayimage">
     <a href="index.html">
         <img src="images/overlayimage/work.png" alt="art"/>
-      </a>
-      </div>
+    </a>
+</div>
 <div class="projects">
     <ul>
-      {% for post in site.art %}
-        <li class="project">
-          <div class="title">{{ post.title }}</div>
-          <div class="type">{{ post.type }}</div>
-          <div class="content">
-            {{ post.content }}
-          </div>
-        </li>
+      {% for post in site.posts %}
+        {% if post.categories contains 'art' %}
+          <li class="project">
+            <div class="title">{{ post.title }}</div>
+            <div class="type">{{ post.type }}</div>
+            <div class="content">
+              {{ post.content }}
+            </div>
+          </li>
+        {% endif %}
       {% endfor %}
     </ul>
 </div>

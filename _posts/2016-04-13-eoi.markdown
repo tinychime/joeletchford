@@ -1,7 +1,7 @@
 ---
 title: "The Evidence of Intimacy"
 type: "Publication Design, Editorial"
-tags: "home"
+categories: "art"
 ---
 
 ![The Evidence of Intimacy]({{ site.baseurl }}/images/eoi/coverfull.jpg)

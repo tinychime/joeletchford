@@ -1,7 +1,7 @@
 ---
 title: "Master of Fine Arts Thesis Catalog"
 type: "Publication Design, Exhibition Design, Way-finding"
-tags: "home"
+categories: "home"
 ---
 
 ![aster of Fine Arts]({{ site.baseurl }}/images/thesiscatalog/cover.jpg)

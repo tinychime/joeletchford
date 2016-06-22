@@ -1,7 +1,7 @@
 ---
 title: "Float-Publication"
 type: "Publication, Insallation"
-tags: "home"
+categories: "art"
 ---
 
 ![MCAD's Fine Arts Booklet]({{ site.baseurl }}/images/float/pg1.jpg)

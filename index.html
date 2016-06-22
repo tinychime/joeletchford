@@ -9,6 +9,7 @@ layout: default
 <div class="projects">
     <ul>
       {% for post in site.posts %}
+      {% if post.categories contains 'home' %}
         <li class="project">
           <div class="title">{{ post.title }}</div>
           <div class="type">{{ post.type }}</div>
@@ -16,6 +17,7 @@ layout: default
             {{ post.content }}
           </div>
         </li>
+        {% endif %}
       {% endfor %}
     </ul>
 </div>

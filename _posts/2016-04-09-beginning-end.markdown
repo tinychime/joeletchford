@@ -1,7 +1,7 @@
 ---
 title: "Beginning and End"
 type: "Publication Design, Installation Design"
-tags: "art"
+categories: "art"
 ---
 
 ![MCAD's Fine Arts Booklet]({{ site.baseurl }}/images/beginningandend/webbandcover.jpg)

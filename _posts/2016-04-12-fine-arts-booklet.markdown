@@ -1,7 +1,7 @@
 ---
 title: "MCAD's Fine Arts Booklet"
 type: "Publication Design"
-tags: "home"
+categories: "home"
 ---
 
 ![MCAD's Fine Arts Booklet]({{ site.baseurl }}/images//finearts/fineartscover.jpg)

@@ -12,17 +12,16 @@ $text-color:       #383434;
 $background-color: #fff;
 
 // Media query
-$on-palm:          600px;
 
-@mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
-}
+$small-range: (0px, 700px) !default;
+$medium-range: (701px, 1100px) !default;
+$large-range: (1101px, 2500px) !default;
+
+
+
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "header",
         "home",
         "reset"
-;

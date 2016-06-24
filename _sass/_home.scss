@@ -5,7 +5,7 @@
 .page-content {
     margin: 30px;
     margin-top: 0;
-}
+    }
 
 .overlayimage {
   position: fixed;
@@ -27,19 +27,6 @@
   font-style: italic;
   font-size: 1.8em;
 }
-
-.project {
-  width: 900px;
-  float: left;
-  height: 100vh;
-  overflow: scroll;
-  padding: 0 25px 10px 0;
-  margin: 0 25px 0 0;
-  border-right: 2px solid black;
-  &:last-of-type {
-    margin-right: 0;
-    border-right: none;
-  }
   .title {
     margin: 100px 0 7px 0;
   }
@@ -61,4 +48,35 @@
   width: 6640px;
   top: 0;
   position: absolute;
+
+        @media (min-width: #{$small-range})  {
+          @content;
+        display: flex;
+        flex-flow: row wrap;
+        width: 100%;
+        height: auto;
+        overflow: visible;
+      }
 }
+
+
+
+.projects-art{
+    z-index: -10;
+    width: 2700px;
+    top: 0;
+    position: absolute;
+}
+
+.project {
+  width: 900px;
+  float: left;
+  height: 100vh;
+  overflow: scroll;
+  padding: 0 25px 10px 0;
+  margin: 0 25px 0 0;
+  border-right: 2px solid black;
+  &:last-of-type {
+    margin-right: 0;
+    border-right: none;
+  }

@@ -1,23 +1,24 @@
 ---
 layout: default
 ---
+
 <div class="overlayimage">
     <a href="art.html">
       <img src="images/overlayimage/art.png" alt="art"/>
     </a>
   </div>
-<div class="projects">
-    <ul>
-      {% for post in site.posts %}
-      {% if post.categories contains 'home' %}
-        <li class="project">
-          <div class="title">{{ post.title }}</div>
-          <div class="type">{{ post.type }}</div>
-          <div class="content">
-            {{ post.content }}
-          </div>
-        </li>
-        {% endif %}
-      {% endfor %}
-    </ul>
-</div>
+  <div class="projects">
+      <ul>
+        {% for post in site.posts %}
+          {% if post.categories contains 'home' %}
+            <li class="project" id="{{ post.id }}">
+              <div class="title">{{ post.title }}</div>
+              <div class="type">{{ post.type }}</div>
+              <div class="content">
+                {{ post.content }}
+              </div>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+  </div>

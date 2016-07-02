@@ -1,6 +1,35 @@
 /**
  * Site header
  */
+ // nav stuff
+
+.navigation {
+  position: fixed;
+  margin: 10px;
+  padding: 20px;
+	bottom: 10px;
+	left: 15px;
+	width: px;
+	z-index: 1000;
+  .snapnav{
+    display: inline;
+    font-family: $list-font;
+    letter-spacing: .02em;
+    float: left;
+    background: #fff;
+    // margin-left: 250px;
+    // margin-top: 30px;
+    // margin-left: 30px;
+    // padding-left: 300px;
+    // padding-top: 5px;
+    // padding-right: 0px;
+    // padding-bottom: 5px;
+
+    }
+  }
+
+
+  //   bod stuff
 
 .site-title {
   font-family: $base-font;

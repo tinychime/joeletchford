@@ -12,14 +12,17 @@ $list-font: monospace;
 $text-color:       #383434;
 $background-color: #fff;
 
-// Media query
-//
-// $small-range: (0px, 700px) !default;
-// $medium-range: (701px, 1100px) !default;
-// $large-range: (1101px, 2500px) !default;
+// Width of the content area
+$content-width:    900px;
 
+$on-palm:          600px;
+$on-laptop:        900px;
 
-
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import

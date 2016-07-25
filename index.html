@@ -7,7 +7,7 @@ layout: default
       <img src="images/overlayimage/art.png" alt="art"/>
     </a>
   </div>
-  <div class="projects" style="width: calc(405px * {{ site.posts | size }});">
+  <div class="projects">
       <ul>
         {% for post in site.posts %}
           {% if post.categories contains 'home' %}

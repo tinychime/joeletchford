@@ -69,7 +69,6 @@
 
 .projects, .projects-art {
   z-index: -10;
-  width: calc(950px * 3);
   top: 0;
   position: absolute;
   display: inline-block;
@@ -79,7 +78,6 @@
 }
 
 .projects-art {
-  width: calc(950px * 4);
   @include media-query($on-palm) {
     width: auto;
   }

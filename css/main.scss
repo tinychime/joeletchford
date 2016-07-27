@@ -15,8 +15,9 @@ $background-color: #fff;
 // Width of the content area
 $content-width:    900px;
 
-$on-palm:          600px;
-$on-laptop:        900px;
+$on-palm:          955px;
+$on-laptop:        1400px;
+$on-small: 430px;
 
 @mixin media-query($device) {
     @media screen and (max-width: $device) {

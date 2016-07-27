@@ -24,28 +24,46 @@
 .title {
   font-family: $base-font;
   font-size: 2em;
+  @include media-query($on-small) {
+    font-size: 1.5em;
+  }
 }
 
 .type {
   font-family: serif;
   font-style: italic;
   font-size: 1.8em;
+  @include media-query($on-small) {
+font-size: 1.2em;
+  }
 }
 
 .project {
-  width: 900px;
+  width: 1024px;
   float: left;
   height: 100vh;
   overflow: scroll;
   padding: 0 25px 10px 0px;
   margin: 0px 25px 0px 0px;
   border-right: 2px solid black;
+  @include media-query($on-laptop) {
+    width: 900px;
+    float: left;
+    height: 100vh;
+    overflow: scroll;
+    padding: 0 25px 10px 0px;
+    margin: 0px 25px 0px 0px;
+    border-right: 2px solid black;
+
+
+  }
   @include media-query($on-palm) {
      float: none;
      width: 100%;
      height: auto;
      border: none;
      padding: 0;
+    border-bottom: 2px solid black;
    }
   &:last-of-type {
     margin-right: 0;
@@ -60,6 +78,9 @@
     font-size: 1.2em;
     line-height: 1.6em;
     letter-spacing: .02em;
+    @include media-query($on-laptop) {
+      font-size: 1.1em;
+      line-height: 1.3em;}
   }
   img {
     width: 100%;
@@ -70,16 +91,29 @@
 .projects, .projects-art {
   z-index: -10;
   top: 0;
-  width: calc(945px * 3);
+  width: calc(1070px * 3);
   position: absolute;
   display: inline-block;
+    @include media-query($on-laptop) {
+      width: calc(945px * 3);
+      position: absolute;
+      display: inline-block;
+
+
+    }
   @include media-query($on-palm) {
     width: auto;
   }
 }
 
 .projects-art {
-  width: calc(950px * 4);
+  width: calc(1075px * 4);
+    @include media-query($on-laptop) {
+      width: calc(955px * 3);
+      position: absolute;
+      display: inline-block;
+
+    }
   @include media-query($on-palm) {
     width: auto;
   }

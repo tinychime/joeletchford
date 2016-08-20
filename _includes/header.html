@@ -1,9 +1,65 @@
+<!-- <header class="site-header">
+  <a onclick="toggle_visibility('about-overlay');" class="site-title" href="#">{{ site.title }}</a>
+</header>
+
+
+
+<div class="about-wrapper" id="about-overlay">
+  <div class="about-overlay" id="about-overlay">
+  <div onclick="toggle_visibility('about-overlay');" <class="about-overlay-title"><span class="text">Joe Letchford</span></div>
+<div class="about">
+    <div class="header-column">
+      <h2> Currently </h2>
+      <p> Joe Letchford is an American graphic designer pursuing his MFA from the <a href="http://www.mcad-mfa.com/">Minneapolis College of Art and Design.</a>
+      </p>
+    </div>
+    <div class="header-column">
+      <h2> Statement </h2>
+      <p>His personal work currently focuses predominantly on exploring how our experience of natural landscapes have been permanently altered by an increasingly digital culture. These observations and experimentations are opportunities to explore his mental space, ways of thinking, creation processes—as well as on the results of these efforts.
+      </p>
+      <p>Joe’s work has and will always be in a state of flux, one that is constantly changing—maybe not drastically—but certainly always. Always growing from successful and unsuccessful ideas. Re-working the thoughts and sharpening the concepts, Joe is always chiseling out the framework of his methods of production and thought process.  He is constantly working.
+      </p>
+    </div>
+
+    <div class="header-column">
+      <h2> Online </h2>
+      <p>
+      Underlined are a few less cureated examples of Joe's online persona and constant life updates:
+      </p>
+      <a href="https://www.dribbble.com/joeletchford">drobble</a><br>
+
+      <a href="https://www.instagram.com/joeletchford">stagram</a><br>
+
+      <a href="https://www.twitter.com/joeletchford">twotter</a></p>
+
+      <p>
+      To getter a better idea of who the non-digital Joe is, send him love at either of these locations below (He loves a good chat):
+      </p>
+      <p>rletchford@mcad.edu
+      <br> +1.804.815.5044</p>
+
+    <div class="colophon">
+        <h1>Colophon</h1>
+          <p>This site uses runs on Jekyll & Github Pages. Written and designed by Joe himself (but with an immense amount of late night help from his best good friend <a href="http://josh.graphics">Josh Osborne <a/>
+          </p>
+    </div>
+
+    <div onclick="toggle_visibility('about-overlay');" class="close">
+       I want to go home &#10552;
+          </div>
+  </div>
+</div>
+</div>
+
+
+
+
 <header class="site-header">
   <a onclick="toggle_visibility('about-overlay');" class="site-title" href="#">{{ site.title }}</a>
 </header>
 
 
-<!-- <div class="navigation">
+<div class="navigation">
   <ul>
     {% for link in site.posts %}
       <li class="snapnav">
@@ -11,12 +67,30 @@
       </li>
     {% endfor %}
   </ul>
-</div> -->
+</div>
+
+  -->
+
+<header class="site-header">
+  <a onclick="toggle_visibility('about-overlay');" class="site-title" href="#">{{ site.title }}</a>
+</header>
+
+
+<div class="navigation">
+  <ul>
+    {% for link in site.posts %}
+      <li class="snapnav">
+        <a href="#{{ link.id }}">{{ link.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
 
 
 
-<div class="about-wrapper" id="about-overlay" onclick="toggle_visibility('about-overlay');">
+<div class="about-wrapper" id="about-overlay">
   <div class="about-overlay" id="about-overlay">
+  <div onclick="toggle_visibility('about-overlay');" <class="about-overlay-title"><span class="text">Joe Letchford</span></div>
     <p><b>Joe Letchford</b> is an American graphic designer pursuing his MFA from the <a href="http://www.mcad-mfa.com/">Minneapolis College of Art and Design.</a></p>
     <p>His work focuses predominately in exploring process, collaboration, relational aesthetics and how all that relates to physical spaces. These observations and experimentation attempts, in the physical space or the space of the book, are opportunities to make his exploration concrete, focusing on mental space, ways of thinking, creation processes, as well as, on the results of these efforts.</p>
     <p>Joe’s work has and will always be in a state of flux, one that is constantly changing—maybe not drastically—but certainly always. Always growing from successful and unsuccessful ideas. Re-working the thoughts and sharpening the concepts, Joe is always chiseling out the framework of his methods of production and thought process.  He is constantly working. </p>

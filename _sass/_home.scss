@@ -97,7 +97,7 @@ font-size: 1.2em;
 .projects, .projects-art {
   z-index: -10;
   top: 0;
-  width: calc(1070px * 4);
+  width: calc(1080px * 6);
   position: absolute;
   display: inline-block;
     @include media-query($on-laptop) {

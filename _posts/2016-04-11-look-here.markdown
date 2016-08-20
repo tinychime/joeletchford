@@ -4,11 +4,10 @@ type: "Print Design, Exhibition Identity"
 categories: "home"
 ---
 
-![Look Here]({{ site.baseurl }}/images/rwd/Desktop-Browsers.jpg)
+![Look Here]({{ site.baseurl }}/images/lookhere/final-landscape-woodblock.jpg)
 
 Application web banner and postcard for the Mcknight Visual Artist Fellowship. This grant is to support working artists to create and contribute to vibrant communities. Minnesota thrives when its artists thrive
 
-![Look Here]({{ site.baseurl }}/images/lookhere/final-landscape-woodblock.jpg)
 ![Look Here]({{ site.baseurl }}/images/lookhere/final-landscape-wall-piece.jpg)
 ![Look Here]({{ site.baseurl }}/images/lookhere/final-portrait.jpg)
 ![Look Here]({{ site.baseurl }}/images/lookhere/final-landscape-postcard-front.jpg)

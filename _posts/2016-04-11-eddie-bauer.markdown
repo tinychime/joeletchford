@@ -6,7 +6,7 @@ categories: "home"
 
 ![Eddie Bauer]({{ site.baseurl }}/images/bauer/cover.jpg)
 
-Application web banner and postcard for the Mcknight Visual Artist Fellowship. This grant is to support working artists to create and contribute to vibrant communities. Minnesota thrives when its artists thrive
+A mockup catalog spread in response to Eddie Bauer's already existing publication. This was a personal exercise to create a unique spread set up with interesting content that would work within the Eddie Bauer brand.  
 
 ![Eddie Bauer]({{ site.baseurl }}/images/bauer/spread-2.jpg)
 ![Eddie Bauer]({{ site.baseurl }}/images/bauer/spread-3.jpg)

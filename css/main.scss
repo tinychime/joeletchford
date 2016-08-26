@@ -21,11 +21,13 @@ $on-small: 430px;
 
 @mixin media-query($device) {
     @media screen and (max-width: $device) {
-        @content;}}
+        @content;
+			}
+		}
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "header",
         "home",
         "reset"
- 
+;

@@ -12,4 +12,4 @@ This zine exploration is a bi weekly publication that I have tasked for myself i
 ![MCAD's Fine Arts Booklet]({{ site.baseurl }}/images/scars/pg3.jpg)
 ![MCAD's Fine Arts Booklet]({{ site.baseurl }}/images/scars/pg4.jpg)
 
-5.5 x 8in, 32 pg. 4 color CMYK, c. Edition of 30.
+32 pg. 4 color CMYK digital, 5.5 x 8in, Edition of 30.

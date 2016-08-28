@@ -14,3 +14,5 @@ A mockup catalog spread in response to Eddie Bauer's already existing publicatio
 ![Eddie Bauer]({{ site.baseurl }}/images/bauer/spread-5.jpg)
 ![Eddie Bauer]({{ site.baseurl }}/images/bauer/spread-6.jpg)
 ![Eddie Bauer]({{ site.baseurl }}/images/bauer/spread-7.jpg)
+
+It would be rad if this had print information (one day). 

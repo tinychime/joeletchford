@@ -123,6 +123,34 @@ font-size: 1.2em;
   }
 }
 
+
+// aspecific link for RWD at the bottom of project folder
+
+.content a {
+	text-decoration: none;
+  font-family: $base-font;
+  font-size: 1.2em;
+  color: $text-color;
+  letter-spacing: .02em;
+  float: left;
+  background: #fff;
+  padding-left: 0px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  -webkit-transition: .2s all;
+  transition: .2s all;
+  &:hover {
+		font-style: italic;
+    background: #000;
+    color: #fff;
+		padding-left: 5px;
+	  padding-top: 0px;
+	  padding-right: 0px;
+	  padding-bottom: 0px;
+  }
+}
+
 // some bull shit work around nonsense
 
 .content #mcknight-visual-artist-fellowship{
@@ -146,6 +174,27 @@ font-size: 1.2em;
 		font-size: 1.5em;
 	}
 }
+
+.content #new-york-city-invitation{
+	font-family: $base-font;
+	font-size: 2em;
+	color: $text-color;
+	    font-weight: 400;
+			line-height: 1.8em;
+	@include media-query($on-small) {
+		font-size: 1.5em;
+	}
+}
+
+.content #postcard-design-2{
+	font-family: serif;
+	font-style: italic;
+	font-size: 1.8em;
+	@include media-query($on-small) {
+font-size: 1.2em;
+	}
+}
+
 .content #postcard-design-1{
 	font-family: serif;
 	font-style: italic;

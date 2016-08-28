@@ -18,5 +18,5 @@ When I design, I am constantly exploring new ways of creating work that can spea
 ![MCAD's Fine Arts Booklet]({{ site.baseurl }}/images/beginningandend/mg9600.jpg)
 ![MCAD's Fine Arts Booklet]({{ site.baseurl }}/images/beginningandend/mg589.jpg)
 
-11x17in, 24 pg. Newsprint and Toner c. Edition of 25.
+24 pg. Newsprint and Toner, 11x17in,  Edition of 25.
 Plywood, Plexiglass, Projection and Sound.

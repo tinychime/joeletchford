@@ -111,9 +111,9 @@ font-size: 1.2em;
 }
 
 .projects-art {
-  width: calc(1075px * 4);
+  width: calc(1080px * 5);
     @include media-query($on-laptop) {
-      width: calc(955px * 4);
+      width: calc(955px * 5);
       position: absolute;
       display: inline-block;
 

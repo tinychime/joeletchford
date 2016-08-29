@@ -1,5 +1,5 @@
 ---
-title: "The Evidence of Intimacy"
+title: "Not Enough "
 type: "Solo Exhibition, Print, Sculpture, Film"
 categories: "art"
 ---

@@ -23,7 +23,16 @@
     left: 50%;  }
 }
 
+#click:hover{
+	margin-bottom: -5px;
+	border-bottom: 10px solid blue;
+}
 
+#click-1:hover{
+	margin-bottom: -5px;
+border-bottom: 10px solid red;
+
+}
 
 .title {
   font-family: $base-font;
@@ -95,11 +104,11 @@ font-size: 1.2em;
 .projects, .projects-art {
   z-index: -10;
   top: 0;
-  width: calc(1080px * 6);
+  width: calc(1080px * 7);
   position: absolute;
   display: inline-block;
     @include media-query($on-laptop) {
-      width: calc(950px * 6);
+      width: calc(950px * 7);
       position: absolute;
       display: inline-block;
 
@@ -153,6 +162,18 @@ font-size: 1.2em;
 
 // some bull shit work around nonsense
 
+.content #third-rail-ad{
+	font-family: $base-font;
+	font-size: 2em;
+	color: $text-color;
+	    font-weight: 400;
+			line-height: 1.8em;
+	@include media-query($on-small) {
+		font-size: 1.5em;
+	}
+}
+
+
 .content #mcknight-visual-artist-fellowship{
 	font-family: $base-font;
 	font-size: 2em;
@@ -183,6 +204,15 @@ font-size: 1.2em;
 			line-height: 1.8em;
 	@include media-query($on-small) {
 		font-size: 1.5em;
+	}
+}
+
+.content #advertisement{
+	font-family: serif;
+	font-style: italic;
+	font-size: 1.8em;
+	@include media-query($on-small) {
+font-size: 1.2em;
 	}
 }
 

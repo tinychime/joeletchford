@@ -1,7 +1,7 @@
 # Site settings
 title: Joe Letchford...
 description:
-baseurl: "/joeletchford"
+baseurl: ""
 
 # Build settings
 permalink: /:year/:month/:title

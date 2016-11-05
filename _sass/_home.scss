@@ -25,12 +25,14 @@
 
 #click:hover{
 	margin-bottom: -5px;
-	border-bottom: 10px solid blue;
+	filter: drop-shadow(5px 5px 5px red);
+	filter: blur(3px);
 }
 
 #click-1:hover{
 	margin-bottom: -5px;
-border-bottom: 10px solid red;
+filter: drop-shadow(5px 5px 5px blue);
+filter: blur(3px);
 
 }
 
@@ -58,7 +60,7 @@ font-size: 1.2em;
   overflow: scroll;
   padding: 0 25px 10px 0px;
   margin: 0px 25px 0px 0px;
-  border-right: 2px solid black;
+  // border-right: 2px solid black;
   @include media-query($on-laptop) {
     width: 900px;
     float: left;
@@ -66,12 +68,12 @@ font-size: 1.2em;
     overflow: scroll;
     padding: 0 25px 10px 0px;
     margin: 0px 25px 0px 0px;
-    border-right: 2px solid black;
+    // border-right: 2px solid black;
 
 
   }
   @include media-query($on-palm) {
-     float: none;
+     float: left;
      width: 100%;
      height: auto;
      border: none;
@@ -122,13 +124,13 @@ font-size: 1.2em;
 .projects-art {
   width: calc(1080px * 6);
     @include media-query($on-laptop) {
-      width: calc(955px * 6);
+      width: calc(950px * 6);
       position: absolute;
       display: inline-block;
 
     }
   @include media-query($on-palm) {
-    width: auto;
+    width: 100%;
   }
 }
 

@@ -30,7 +30,7 @@
   letter-spacing: .02em;
   float: left;
   background: #fff;
-  border-bottom: 2px solid #000;
+  // border-bottom: 2px solid #000;
   padding-left: 2px;
   padding-top: 5px;
   padding-right: 0px;
@@ -59,13 +59,14 @@
 
 .about-overlay {
     font-family: $base-font;
+		// height: 100%;
     color: #000;
     background-color: #fff;
-    margin: 1%;
+    margin: 0px;
     padding: 2%;
     line-height: 1.8em;
     font-size: 1.4em;
-    border: 2px solid #000;
+    // border: 2px solid #000;
     order:2;
 		-webkit-columns: 2 auto;
 		-moz-columns: 2 auto;
@@ -73,7 +74,7 @@
 		-webkit-column-gap: 2em;
 		-moz-column-gap: 2em;
 		column-gap:2em;
-    /*display:fixed;*/
+    // /*display:fixed;*/
 		@media screen and (max-width: $on-palm) {
 			-webkit-columns: 1 auto;
 		  -moz-columns: 1 auto;

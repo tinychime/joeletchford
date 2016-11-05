@@ -17,7 +17,6 @@ The design of this catalog was based around two sidereal years to represent the 
 ![aster of Fine Arts]({{ site.baseurl }}/images/thesiscatalog/preston.jpg)
 ![aster of Fine Arts]({{ site.baseurl }}/images/thesiscatalog/eric.jpg)
 ![aster of Fine Arts]({{ site.baseurl }}/images/thesiscatalog/dude.gif)
-![aster of Fine Arts]({{ site.baseurl }}/images/thesiscatalog/posters.jpg)
 
 7.5x10 in,  85 pg. CMYK Digital, Edition of 600.
 

@@ -106,11 +106,11 @@ font-size: 1.2em;
 .projects, .projects-art {
   z-index: -10;
   top: 0;
-  width: calc(1080px * 7);
+  width: calc(1080px * 9);
   position: absolute;
   display: inline-block;
     @include media-query($on-laptop) {
-      width: calc(950px * 7);
+      width: calc(950px * 9);
       position: absolute;
       display: inline-block;
 
@@ -122,9 +122,9 @@ font-size: 1.2em;
 }
 
 .projects-art {
-  width: calc(1080px * 6);
+  width: calc(1080px * 7);
     @include media-query($on-laptop) {
-      width: calc(950px * 6);
+      width: calc(950px * 7);
       position: absolute;
       display: inline-block;
 

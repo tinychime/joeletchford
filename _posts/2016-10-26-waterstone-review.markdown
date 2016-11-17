@@ -17,6 +17,8 @@ Water~Stone Review is a literary annual published by the The Creative Writing Pr
 ![Waterstone]({{ site.baseurl }}/images/waterstone/7.jpg)
 ![Waterstone]({{ site.baseurl }}/images/waterstone/8.jpg)
 
-6x9 in,  300 pg. CMYK Digital, Edition of 5000.
+Poster, Postcards, Web, Book Marks, 
+6x9 in,  300 pg. Offset CMYK, Edition of 5000.
+
 
 [waterstone](http://www.waterstonereview.com/ "target=_blank")

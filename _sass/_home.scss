@@ -19,9 +19,10 @@
   height: 200px;
   margin: -80px 0 0 -90px;
   @include media-query($on-small) {
-    width: 45%;
-    left: 50%;  }
+    width: 35%;
+    left: 55%;  }
 }
+
 
 #click:hover{
 	margin-bottom: -5px;
@@ -33,7 +34,6 @@
 	margin-bottom: -5px;
 filter: drop-shadow(5px 5px 5px blue);
 filter: blur(3px);
-
 }
 
 .title {
@@ -47,9 +47,9 @@ filter: blur(3px);
 .type {
   font-family: serif;
   font-style: italic;
-  font-size: 1.8em;
+  font-size: 2em;
   @include media-query($on-small) {
-font-size: 1.2em;
+font-size: 1.5em;
   }
 }
 
@@ -66,7 +66,7 @@ font-size: 1.2em;
     float: left;
     height: 100vh;
     overflow: scroll;
-    padding: 0 25px 10px 0px;
+    padding: 0 25px 0px 0px;
     margin: 0px 25px 0px 0px;
     // border-right: 2px solid black;
 
@@ -86,15 +86,19 @@ font-size: 1.2em;
   }
   .title {
     margin: 100px 0 7px 0;
+    @include media-query($on-laptop) {
+          margin: 70px 0 7px 0;
+    }
+
   }
   p {
     margin: 20px 0;
     font-family: $base-font;
-    font-size: 1.2em;
-    line-height: 1.6em;
+    font-size: 1.5em;
+    line-height: 1.4em;
     letter-spacing: .02em;
     @include media-query($on-laptop) {
-      font-size: 1.1em;
+      font-size: 1.4em;
       line-height: 1.3em;}
   }
   img {

@@ -6,7 +6,7 @@ categories: "art"
 
 ![albums]({{ site.baseurl }}/images/album/cop.jpg)
 
-A collection of album artwork with a full intention of growing over these next years. Lend and hand in that process! <3
+A collection of album artwork with the full intention of growing over the years. Lend a hand in that process and contact me about your album! <3
 
 ![albums]({{ site.baseurl }}/images/album/rowden.jpg)
 

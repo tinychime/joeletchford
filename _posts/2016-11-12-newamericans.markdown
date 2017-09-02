@@ -26,7 +26,7 @@ Iterations of the logo concept
 
 Final Design
 
-![Waterstone](/{{ site.baseurl }}/images/newamericans/newamericans-06.jpg)
+![Waterstone]({{ site.baseurl }}/images/newamericans/newamericans-06.jpg)
 
 
 5.5x8.5 in, CMYK Digital, Edition of 5000.

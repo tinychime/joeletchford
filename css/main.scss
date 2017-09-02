@@ -1,32 +1,103 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
+# Overwrite Tachyons here. Don't go overboard!
 ---
-@charset "utf-8";
+//
+// @import "tachyons-sass/tachyons.scss";
 
-// Our variables
-$base-font: sans-serif;
-$base-line-height: 1.5;
-$base-letter-spacing: .02em;
-$list-font: monospace;
+// #post {
+//   h1, h2, h3, h4, h5, h6 {
+//     @extend .fw3, .f3;
+//   }
+//   h3 {
+//     @extend .bb, .dib, .pb1;
+//   }
+//   a {
+//     @extend .link, .underline-hover, .dim;
+//   }
+//   p {
+//     @extend .lh-copy, .w-100;
+//   }
+//   img {
+//     @extend .w-100;
+//   }
+//   figure {
+//     @extend .ma0;
+//   }
+// }
+//
+//
+// #main-list {
+//
+//   a {
+//     @extend .link, .black, .dim, .bb, .bw1;
+//   }
+//
 
-$text-color:       #383434;
-$background-color: #fff;
+// }
+// .z-neg-100 {
+//   z-index: -100;
+// }
 
-// Width of the content area
-$content-width:    900px;
 
-$on-palm:          955px;
-$on-laptop:        1400px;
-$on-small: 430px;
 
-@mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
+img {
+width: 100%;
 }
 
-// Import partials from `sass_dir` (defaults to `_sass`)
-@import
-        "header",
-        "home",
-        "reset"
+a {
+
+	-webkit-transition: color .15s ease-in;
+	transition: color .15s ease-in;
+	opacity: 1;
+	text-decoration: none;
+
+}
+
+@media screen and (min-width: 30em) {
+.w-max-home { width: calc(901px * 9); }
+.w-max-art  { width: calc(902px * 7); }
+}
+
+
+@media screen and (min-width: 30em) {
+.w6 {    width: 900px; }
+}
+.lh-body  { line-height: 1.25; }
+
+.very-center {
+  top: 50%;
+  left: 50%;
+  width: 200px;
+  height: 200px;
+  margin: -80px 0 0 -90px;
+}
+
+.blur {
+  &:hover {
+    margin-bottom: -5px;
+    filter: drop-shadow(5px 5px 5px red);
+    filter: blur(3px);
+  }
+  -webkit-transition: filter .05s; /* Safari */
+  transition: filter .05s;
+}
+
+
+
+.PageNavigation {
+  display: block;
+  width: auto;
+  overflow: hidden;
+}
+
+.PageNavigation a {
+	text-decoration: none;
+  display: block;
+  width: 50%;
+  float: left;
+  margin: 1em 0;
+}
+
+.PageNavigation .next {
+  text-align: right;
+}

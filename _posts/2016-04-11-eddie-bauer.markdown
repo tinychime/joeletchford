@@ -1,16 +1,19 @@
 ---
+layout: post
 title: "Eddie Bauer Moc Spread"
 type: "Print Design"
 categories: "home"
 ---
 
-![Eddie Bauer]({{ site.baseurl }}/images/rwd/Desktop-Browsers.jpg)
+![Eddie Bauer](/{{ site.baseurl }}/images/bauer/cover.jpg)
 
-Application web banner and postcard for the Mcknight Visual Artist Fellowship. This grant is to support working artists to create and contribute to vibrant communities. Minnesota thrives when its artists thrive
+A mockup catalog spread in response to Eddie Bauer's already existing publication. This was a personal exercise to create a unique spread set up with interesting content that would work within the Eddie Bauer brand.  
 
-![Eddie Bauer]({{ site.baseurl }}/images/lookhere/final-landscape-woodblock.jpg)
-![Eddie Bauer]({{ site.baseurl }}/images/lookhere/final-landscape-wall-piece.jpg)
-![Eddie Bauer]({{ site.baseurl }}/images/lookhere/final-portrait.jpg)
-![Eddie Bauer]({{ site.baseurl }}/images/lookhere/final-landscape-postcard-front.jpg)
-![Eddie Bauer]({{ site.baseurl }}/images/lookhere/final-landscape-postcard.jpg)
-![Eddie Bauer]({{ site.baseurl }}/images/lookhere/final-landscape-postcard-close.jpg)
+![Eddie Bauer](/{{ site.baseurl }}/images/bauer/spread-2.jpg)
+![Eddie Bauer](/{{ site.baseurl }}/images/bauer/spread-3.jpg)
+![Eddie Bauer](/{{ site.baseurl }}/images/bauer/spread-4.jpg)
+![Eddie Bauer](/{{ site.baseurl }}/images/bauer/spread-5.jpg)
+![Eddie Bauer](/{{ site.baseurl }}/images/bauer/spread-6.jpg)
+![Eddie Bauer](/{{ site.baseurl }}/images/bauer/spread-7.jpg)
+
+It would be rad if this had print information (one day).

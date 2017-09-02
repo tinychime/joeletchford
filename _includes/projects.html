@@ -1,0 +1,18 @@
+<div class="pr2 pt4 w-max vh-100 overflow-hidden">
+  {% for post in site.posts %}
+    {% if post.categories contains '{{ include.category }}' %}
+      <a class="link black" href="/{{ site.baseurl }}/{{ post.url }}">
+        <div class="fl pa2 pt3 w6 vh-100 overflow-scroll">
+          <h1 class="fw4 f3 mv0">{{ post.title }}</h1>
+          <h2 class="f3 serif i fw2 mv0">{{ post.type }}</h2>
+          <div class="f4 lh-body pb2">{{ post.content }}</div>
+        </div>
+      </a>
+    {% endif %}
+  {% endfor %}
+  <div class="cf"></div>
+</div>]
+
+
+<!--
+  <a class="link black" href="{{ site.baseurl }}/{{ post.url }}"> -->

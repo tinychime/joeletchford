@@ -5,8 +5,8 @@ type: "Publication"
 categories: "art"
 ---
 
-![disconnection](/{{ site.baseurl }}/images/thesis/cover.jpg)
-![disconnection](/{{ site.baseurl }}/images/thesis/internal.jpg)
+![disconnection]({{ site.baseurl }}/images/thesis/cover.jpg)
+![disconnection]({{ site.baseurl }}/images/thesis/internal.jpg)
 
 The work presented in this application explores what it means to choose to disconnect from a digital presence in today's post-digital environment. Post-Digital is the discourse around the relationships between our technologies and their effects on us as humans. I question whether the possibility of experiencing a sense of connection or transcendence is directly correlated with disconnecting from an online presence.
 
@@ -14,17 +14,17 @@ Human connections are no longer limited to face-to-face encounters, mouth to ear
 presence in nature.
 
 
-![disconnection](/{{ site.baseurl }}/images/thesis/3.jpg)
-![disconnection](/{{ site.baseurl }}/images/thesis/5.jpg)
-![disconnection](/{{ site.baseurl }}/images/thesis/18.jpg)
-![disconnection](/{{ site.baseurl }}/images/thesis/22.jpg)
-![disconnection](/{{ site.baseurl }}/images/thesis/36.jpg)
-![disconnection](/{{ site.baseurl }}/images/thesis/46.jpg)
-![disconnection](/{{ site.baseurl }}/images/thesis/65.jpg)
-![disconnection](/{{ site.baseurl }}/images/thesis/68.jpg)
-![disconnection](/{{ site.baseurl }}/images/thesis/74.jpg)
-![disconnection](/{{ site.baseurl }}/images/thesis/80.jpg)
-![disconnection](/{{ site.baseurl }}/images/thesis/95.jpg)
+![disconnection]({{ site.baseurl }}/images/thesis/3.jpg)
+![disconnection]({{ site.baseurl }}/images/thesis/5.jpg)
+![disconnection]({{ site.baseurl }}/images/thesis/18.jpg)
+![disconnection]({{ site.baseurl }}/images/thesis/22.jpg)
+![disconnection]({{ site.baseurl }}/images/thesis/36.jpg)
+![disconnection]({{ site.baseurl }}/images/thesis/46.jpg)
+![disconnection]({{ site.baseurl }}/images/thesis/65.jpg)
+![disconnection]({{ site.baseurl }}/images/thesis/68.jpg)
+![disconnection]({{ site.baseurl }}/images/thesis/74.jpg)
+![disconnection]({{ site.baseurl }}/images/thesis/80.jpg)
+![disconnection]({{ site.baseurl }}/images/thesis/95.jpg)
 
 
 CMYK Digital, 6.5x8.6in, Edition of 5.

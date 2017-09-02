@@ -1,47 +1,13 @@
-<header class="site-header">
-  <a onclick="toggle_visibility('about-overlay');" class="site-title" href="#">{{ site.title }}</a>
+<header class="pa2 pb3 fixed tc w-100 bg-white dt-ns">
+	<div class="">
+  <a class="link black w-100 w-third-ns tc tl-ns fl-ns dim" href="/{{ site.baseurl }}/index.html">{{ site.title }}</a>
+	</div>
+		<div class="">
+  <a class="link black  w-100 w-third-ns fl-ns tc-ns dim" href="/{{ site.baseurl }}/information.html">Information</a>
+	</div>
+		<div class="">
+  <a class="link black w-100  w-third-ns fl-ns tr dim" href="/{{ site.baseurl }}/urban.html">UrbanStems</a>
+	</div>
 </header>
 
-
-<div class="navigation">
-  <ul>
-    {% for link in site.posts %}
-      <!-- <li class="snapnav">
-        <a href="#{{ link.id }}">{{ link.title }}</a>
-      </li> -->
-    {% endfor %}
-  </ul>
-</div>
-
-
-
-<div class="about-wrapper" id="about-overlay">
-  <div class="about-overlay" id="about-overlay">
-    <p>Joe Letchford is an American graphic designer pursuing his MFA from the <a href="http://www.mcad-mfa.com/">Minneapolis College of Art and Design.</a></p>
-    <p>His personal work focuses predominately in exploring the natural environment and the different ways that we as a digitally litterate society interact with it. </p>
-    <p>Joe’s work has and will always be in a state of flux, one that is constantly changing—maybe not drastically—but certainly always. Always growing from successful and unsuccessful ideas. Re-working the thoughts and sharpening the concepts, Joe is always chiseling out the framework of his methods of production and thought process.
-		</p>
-		<p>He is constantly working. </p>
-
-    <p>
-      Features&#8595 <br>
-      <a href="http://brutalistwebsites.com/tinychime.github.io_joeletchford/">Brutalist Websites</a> <br> *SOON* Draw Down
-    </p>
-
-		<p> You can find more of Joe's digital persona at any of these three places &#8595 </p>
-
-    <a href="https://www.dribbble.com/joeletchford">drobble</a><br>
-
-    <a href="https://www.instagram.com/joeletchford">stagram</a><br>
-
-    <a href="https://www.twitter.com/joeletchford">twotter</a></p>
-
-		<p> Or write sweet nothings to him here &#8595 </p>
-
-    <p>rletchford@mcad.edu</p>
-    <p>+1.804.815.5044</p>
-
-
-		  <div onclick="toggle_visibility('about-overlay');" <class="about-overlay-title"><span class="text"> &#8604 Get me out of here!</span></div>
-  </div>
-</div>
+<div id="about" class="z-100 absolute dn">{% include about.html %}</div>

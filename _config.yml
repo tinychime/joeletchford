@@ -1,12 +1,34 @@
 # Site settings
-title: Joe Letchford...
-description:
-baseurl: ""
+title: Joe Letchford
+version: "v2"
+description: ""
+# delete "joe-letchford" when working locally
+baseurl: "joe-letchford" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+email: "joeletchford@gmail.com"
+tele: "+1.804.815.5044"
+social:
+  - title: drobble
+    url: https://www.dribbble.com/joeletchford
+  - title: stagram
+    url: https://www.instagram.com/joeletchford
+  - title: twotter
+    url: https://www.twitter.com/joeletchford
+
+# Tachyons Version
+tv: "4.7.0"
 
 # Build settings
-permalink: /:year/:month/:title
 markdown: kramdown
-include: [_pages]
-exclude: [_site, CHANGELOG.md, LICENSE, README.md, .sass-cache, .git]
+
+# Exclude this stuff
+exclude: [node_modules, gulpfile.js]
+
+# Gems
+gems:
+  - jekyll-seo-tag
+
+permalink: /:title.html
 sass:
-  style: compressed
+  load_paths:
+    - node_modules

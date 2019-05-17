@@ -1,8 +1,8 @@
-- name: drobbble
+- name: Dribbble
   url: http://www.dribbble.com/joeletchford
 
-- name: stagram
+- name: Instagram
   url: http://www.instagram.com/joeletchford
 
-- name: twotter
+- name: Twitter
   url: http://www.twitter.com/joeletchford

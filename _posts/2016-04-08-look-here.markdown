@@ -1,20 +1,14 @@
 ---
 layout: post
-title: "Look Here"
-type: "Print Design, Exhibition Identity"
+title: "Various Work"
+type: "Branding, print, Web, Etc."
 categories: "home"
 ---
 
-![Look Here]({{ site.baseurl }}/images/lookhere/final-landscape-woodblock.jpg)
+![endless]({{ site.baseurl }}/images/endless/1.jpg)
 
-This exhibition spotlights seven Minnesota artists and designers working to change people's perception and understanding of our impact on the natural world. A focal point of this show is the tamarack bog that sits upon the main entrance to the college.
 
-My main priority for this project was to focus my efforts on creating an identity that used as little material as possible, and that material had to be recycled. The exhibition identity was created by using a laser printer to burn out the title and information of the show, which would have previously been cut out of vinyl. The postcards were also printed on recycled paper.
-
-![Look Here]({{ site.baseurl }}/images/lookhere/final-landscape-wall-piece.jpg)
-![Look Here]({{ site.baseurl }}/images/lookhere/final-portrait.jpg)
-![Look Here]({{ site.baseurl }}/images/lookhere/final-landscape-postcard-front.jpg)
-![Look Here]({{ site.baseurl }}/images/lookhere/final-landscape-postcard.jpg)
-![Look Here]({{ site.baseurl }}/images/lookhere/final-landscape-postcard-close.jpg)
-
-4 color CMYK, Title Wall (15) 15x15 in., Postcard 4x6in., Edition of 5,000.
+![endless]({{ site.baseurl }}/images/endless/2.jpg)
+![endless]({{ site.baseurl }}/images/endless/3.jpg)
+![endless]({{ site.baseurl }}/images/endless/4.jpg)
+![endless]({{ site.baseurl }}/images/endless/5.jpg)

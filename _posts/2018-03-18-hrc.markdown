@@ -1,0 +1,16 @@
+---
+layout: post
+title: "Human Rights Campaign"
+type: "Annual Report"
+categories: "home"
+---
+
+![hrc]({{ site.baseurl }}/images/hrc/hrc-cover.jpg)
+
+While at Design Army, I was lead designer for the Human Rights Campaign (HRC) 2017 annual report. We decided to leverage the conceptual elements of large format news print and to ‘strip’ back the full-color, glossy publications of prior years. We incorporated the two HRC brand colors while using crisp, bold typography as primary vehicle for storytelling. The type was modified, elongated, and stretched to reflect the tension between the activist and the new administration. The several central spreads were meant to echo protest and rally posters, designed to strengthen the central message—‘unite, resist and enlist’.
+
+![hrc]({{ site.baseurl }}/images/hrc/on-the-rise.jpg)
+![hrc]({{ site.baseurl }}/images/hrc/spread-01.jpg)
+![hrc]({{ site.baseurl }}/images/hrc/data-spread.jpg)
+
+32 pages, 12 1/2 × 22, black plus 1 PMS, folded.

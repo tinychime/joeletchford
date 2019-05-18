@@ -15,30 +15,36 @@ Advertisement design for the Third Rail publication.
 
 
 <!-- remember to chang the .content #fall-events-postcard in _home.scss in orcer for the style to work ya dingus -->
+<p class=" mt0 w-100 dib bb mb2 pb1"/>
+
 
 Fall Events Postcard
 
-![MCAD's Fine Arts Booklet]({{ site.baseurl }}/images/falleventspostcard/fall-events-diptic.jpg)
+![fall Events]({{ site.baseurl }}/images/falleventspostcard/fall-events-diptic.jpg)
 
 Physical advertisement for the possible 2017 incoming freshman.
 
-![MCAD's Fine Arts Booklet]({{ site.baseurl }}/images/falleventspostcard/fall-events-fan.jpg)
+![fall Events]({{ site.baseurl }}/images/falleventspostcard/fall-events-fan.jpg)
 
 CMYK, 4x6 in, Edition of 2,000.
+
+<p class=" mt0 w-100 dib bb mb2 pb1"/>
+
 
  New York City Invitation
 
 Postcard Design
 
-![MCAD's Fine Arts Booklet]({{ site.baseurl }}/images/nycinvite/nycinvite.jpg)
+![nyc Postcard]({{ site.baseurl }}/images/nycinvite/nycinvite.jpg)
 
 Design and illustration created for a personal invitation for MCAD alumni that live and work in NYC to attend a gathering.
 
-![MCAD's Fine Arts Booklet]({{ site.baseurl }}/images//nycinvite/nycinvite-close.jpg)
-![MCAD's Fine Arts Booklet]({{ site.baseurl }}/images//nycinvite/nycinvite-close-2.jpg)
+![nyc Postcard]({{ site.baseurl }}/images//nycinvite/nycinvite-close.jpg)
+![nyc Postcard]({{ site.baseurl }}/images//nycinvite/nycinvite-close-2.jpg)
 
 CMY(K), 4x6 in, Edition of 25.
 
+<p class=" mt0 w-100 dib bb mb2 pb1"/>
 
 McKnight Visual Artist Fellowship
 

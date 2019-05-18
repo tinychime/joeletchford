@@ -1,0 +1,19 @@
+---
+layout: post
+title: "Google Search On"
+type: "Publication"
+categories: "home"
+---
+
+![Search On]({{ site.baseurl }}/images/google/cover.jpg)
+
+One of my favorite projects at Google to date was the two week publication design sprint for the “Search On” book. A four-person design team was tasked with writing, designing, and producing the publication in two weeks, including visits to the LA printing studio. This publication now sits on every Google executive’s desk–I like to think that Sundar has taken a peek.
+
+
+![Search On]({{ site.baseurl }}/images/google/riding-to-remember.jpg)
+![Search On]({{ site.baseurl }}/images/google/forest-angle.jpg)
+![Search On]({{ site.baseurl }}/images/google/flat-spread-2.jpg)
+![Search On]({{ site.baseurl }}/images/google/eye-angle.jpg)
+![Search On]({{ site.baseurl }}/images/google/flat-spread-4.jpg)
+
+126 pages, 9.8 × 7.8, 4 color PMS, perfect bound, clear foil embossed dust jacket.

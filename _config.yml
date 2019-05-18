@@ -3,7 +3,7 @@ title: Joe Letchford
 version: "v2"
 description: ""
 # delete "joe-letchford" when working locally
-baseurl: "joe-letchford" # the subpath of your site, e.g. /blog
+baseurl: "joeletchford" # the subpath of your site, e.g. /blog
 url: "joeletchford.com" # the base hostname & protocol for your site
 email: "joeletchford@gmail.com"
 tele: "+1.804.815.5044"

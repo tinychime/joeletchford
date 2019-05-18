@@ -8,11 +8,11 @@ url: "joeletchford.com" # the base hostname & protocol for your site
 email: "joeletchford@gmail.com"
 tele: "+1.804.815.5044"
 social:
-  - title: drobble
+  - title: dribble
     url: https://www.dribbble.com/joeletchford
-  - title: stagram
+  - title: instagram
     url: https://www.instagram.com/joeletchford
-  - title: twotter
+  - title: twitter
     url: https://www.twitter.com/joeletchford
 
 # Tachyons Version
